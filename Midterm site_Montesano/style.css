@@ -1,0 +1,48 @@
+
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+</style>
+
+/* === CSS RESET === */
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+<a href="essay.html" style="color:red">essay</a>
+
+/* === NAVIGATION USING FLEXBOX AND FLEX-GROW === */
+nav {
+	background:#B9FCFE;
+	position: fixed;
+	top:0;
+	left: 0;
+	width:100%;
+	display:flex=;
+}
+
+nav a:link {
+	color:#7ae3bf;
+	padding: 100px;
+	flex-grow:1;
+	text-align: top;
+}
+
+nav a:hover {
+	color:#ffffff;
+	background: #a6dade;
+}
+
+
+
+
+
+
+
